@@ -5,7 +5,6 @@ const RecipePage = () => {
   const recipe = useRecipeData();
 
   if (!recipe) return;
-  console.log(recipe);
 
   const { name, image, ingredients, instructions } = recipe;
 
