@@ -3,8 +3,9 @@ import useRecipeData from '../hooks/useRecipeData'
 import RecipeMenu from './RecipeMenu';
 
 const Home = () => {
-const recipe = useRecipeData()
-console.log(recipe)
+const recipe = useRecipeData();
+
+
 if(!recipe) return;
 
   return (
